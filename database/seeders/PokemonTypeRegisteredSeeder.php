@@ -527,6 +527,250 @@ class PokemonTypeRegisteredSeeder extends Seeder
             // Pokémon #170
             ['id' => 339, 'pokemon_id' => 170, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
             ['id' => 340, 'pokemon_id' => 170, 'pokemon_type_id' => 5, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #171
+            ['id' => 341, 'pokemon_id' => 171, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 342, 'pokemon_id' => 171, 'pokemon_type_id' => 5, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #172
+            ['id' => 343, 'pokemon_id' => 172, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 344, 'pokemon_id' => 172, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #173
+            ['id' => 345, 'pokemon_id' => 173, 'pokemon_type_id' => 17, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 346, 'pokemon_id' => 173, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #174
+            ['id' => 347, 'pokemon_id' => 174, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 348, 'pokemon_id' => 174, 'pokemon_type_id' => 17, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #175
+            ['id' => 349, 'pokemon_id' => 175, 'pokemon_type_id' => 17, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 350, 'pokemon_id' => 175, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #176
+            ['id' => 351, 'pokemon_id' => 176, 'pokemon_type_id' => 17, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 352, 'pokemon_id' => 176, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #177
+            ['id' => 353, 'pokemon_id' => 177, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 354, 'pokemon_id' => 177, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #178
+            ['id' => 355, 'pokemon_id' => 178, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 356, 'pokemon_id' => 178, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #179
+            ['id' => 357, 'pokemon_id' => 179, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 358, 'pokemon_id' => 179, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #180
+            ['id' => 359, 'pokemon_id' => 180, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 360, 'pokemon_id' => 180, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #181
+            ['id' => 361, 'pokemon_id' => 181, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 362, 'pokemon_id' => 181, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #182
+            ['id' => 363, 'pokemon_id' => 182, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 364, 'pokemon_id' => 182, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #183
+            ['id' => 365, 'pokemon_id' => 183, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 366, 'pokemon_id' => 183, 'pokemon_type_id' => 17, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #184
+            ['id' => 367, 'pokemon_id' => 184, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 368, 'pokemon_id' => 184, 'pokemon_type_id' => 17, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #185
+            ['id' => 369, 'pokemon_id' => 185, 'pokemon_type_id' => 7, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 370, 'pokemon_id' => 185, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #186
+            ['id' => 371, 'pokemon_id' => 186, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 372, 'pokemon_id' => 186, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #187
+            ['id' => 373, 'pokemon_id' => 187, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 374, 'pokemon_id' => 187, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #188
+            ['id' => 375, 'pokemon_id' => 188, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 376, 'pokemon_id' => 188, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #189
+            ['id' => 377, 'pokemon_id' => 189, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 378, 'pokemon_id' => 189, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #190
+            ['id' => 379, 'pokemon_id' => 190, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 380, 'pokemon_id' => 190, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #191
+            ['id' => 381, 'pokemon_id' => 191, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 382, 'pokemon_id' => 191, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #192
+            ['id' => 383, 'pokemon_id' => 192, 'pokemon_type_id' => 2, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 384, 'pokemon_id' => 192, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #193
+            ['id' => 385, 'pokemon_id' => 193, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 386, 'pokemon_id' => 193, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #194
+            ['id' => 387, 'pokemon_id' => 194, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 388, 'pokemon_id' => 194, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #195
+            ['id' => 389, 'pokemon_id' => 195, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 390, 'pokemon_id' => 195, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #196
+            ['id' => 391, 'pokemon_id' => 196, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 392, 'pokemon_id' => 196, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #197
+            ['id' => 393, 'pokemon_id' => 197, 'pokemon_type_id' => 13, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 394, 'pokemon_id' => 197, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #198
+            ['id' => 395, 'pokemon_id' => 198, 'pokemon_type_id' => 13, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 396, 'pokemon_id' => 198, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #199
+            ['id' => 397, 'pokemon_id' => 199, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 398, 'pokemon_id' => 199, 'pokemon_type_id' => 8, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #200
+            ['id' => 399, 'pokemon_id' => 200, 'pokemon_type_id' => 10, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 400, 'pokemon_id' => 200, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #201
+            ['id' => 401, 'pokemon_id' => 201, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 402, 'pokemon_id' => 201, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #202
+            ['id' => 403, 'pokemon_id' => 202, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 404, 'pokemon_id' => 202, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #203
+            ['id' => 405, 'pokemon_id' => 203, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 406, 'pokemon_id' => 203, 'pokemon_type_id' => 8, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #204
+            ['id' => 407, 'pokemon_id' => 204, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 408, 'pokemon_id' => 204, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #205
+            ['id' => 409, 'pokemon_id' => 205, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 410, 'pokemon_id' => 205, 'pokemon_type_id' => 14, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #206
+            ['id' => 411, 'pokemon_id' => 206, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 412, 'pokemon_id' => 206, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #207
+            ['id' => 413, 'pokemon_id' => 207, 'pokemon_type_id' => 6, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 414, 'pokemon_id' => 207, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #208
+            ['id' => 415, 'pokemon_id' => 208, 'pokemon_type_id' => 14, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 416, 'pokemon_id' => 208, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #209
+            ['id' => 417, 'pokemon_id' => 209, 'pokemon_type_id' => 17, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 418, 'pokemon_id' => 209, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #210
+            ['id' => 419, 'pokemon_id' => 210, 'pokemon_type_id' => 17, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 420, 'pokemon_id' => 210, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #211
+            ['id' => 421, 'pokemon_id' => 211, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 422, 'pokemon_id' => 211, 'pokemon_type_id' => 12, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #212
+            ['id' => 423, 'pokemon_id' => 212, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 424, 'pokemon_id' => 212, 'pokemon_type_id' => 14, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #213
+            ['id' => 425, 'pokemon_id' => 213, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 426, 'pokemon_id' => 213, 'pokemon_type_id' => 7, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #214
+            ['id' => 427, 'pokemon_id' => 214, 'pokemon_type_id' => 15, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 428, 'pokemon_id' => 214, 'pokemon_type_id' => 9, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #215
+            ['id' => 429, 'pokemon_id' => 215, 'pokemon_type_id' => 13, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 430, 'pokemon_id' => 215, 'pokemon_type_id' => 11, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #216
+            ['id' => 431, 'pokemon_id' => 216, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 432, 'pokemon_id' => 216, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #217
+            ['id' => 433, 'pokemon_id' => 217, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 434, 'pokemon_id' => 217, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #218
+            ['id' => 435, 'pokemon_id' => 218, 'pokemon_type_id' => 3, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 436, 'pokemon_id' => 218, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #219
+            ['id' => 437, 'pokemon_id' => 219, 'pokemon_type_id' => 3, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 438, 'pokemon_id' => 219, 'pokemon_type_id' => 7, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #220
+            ['id' => 439, 'pokemon_id' => 220, 'pokemon_type_id' => 11, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 440, 'pokemon_id' => 220, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #221
+            ['id' => 441, 'pokemon_id' => 221, 'pokemon_type_id' => 11, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 442, 'pokemon_id' => 221, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #222
+            ['id' => 443, 'pokemon_id' => 222, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 444, 'pokemon_id' => 222, 'pokemon_type_id' => 7, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #223
+            ['id' => 445, 'pokemon_id' => 223, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 446, 'pokemon_id' => 223, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #224
+            ['id' => 447, 'pokemon_id' => 224, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 448, 'pokemon_id' => 224, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #225
+            ['id' => 449, 'pokemon_id' => 225, 'pokemon_type_id' => 11, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 450, 'pokemon_id' => 225, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #226
+            ['id' => 451, 'pokemon_id' => 226, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 452, 'pokemon_id' => 226, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #227
+            ['id' => 453, 'pokemon_id' => 227, 'pokemon_type_id' => 14, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 454, 'pokemon_id' => 227, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #228
+            ['id' => 455, 'pokemon_id' => 228, 'pokemon_type_id' => 13, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 456, 'pokemon_id' => 228, 'pokemon_type_id' => 3, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #229
+            ['id' => 457, 'pokemon_id' => 229, 'pokemon_type_id' => 13, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 458, 'pokemon_id' => 229, 'pokemon_type_id' => 3, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #230
+            ['id' => 459, 'pokemon_id' => 230, 'pokemon_type_id' => 7, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 460, 'pokemon_id' => 230, 'pokemon_type_id' => 18, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #231
+            ['id' => 461, 'pokemon_id' => 231, 'pokemon_type_id' => 6, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 462, 'pokemon_id' => 231, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #232
+            ['id' => 463, 'pokemon_id' => 232, 'pokemon_type_id' => 6, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 464, 'pokemon_id' => 232, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #233
+            ['id' => 465, 'pokemon_id' => 233, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 466, 'pokemon_id' => 233, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #234
+            ['id' => 467, 'pokemon_id' => 234, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 468, 'pokemon_id' => 234, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #235
+            ['id' => 469, 'pokemon_id' => 235, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 470, 'pokemon_id' => 235, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #236
+            ['id' => 471, 'pokemon_id' => 236, 'pokemon_type_id' => 9, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 472, 'pokemon_id' => 236, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #237
+            ['id' => 473, 'pokemon_id' => 237, 'pokemon_type_id' => 9, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 474, 'pokemon_id' => 237, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #238
+            ['id' => 475, 'pokemon_id' => 238, 'pokemon_type_id' => 11, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 476, 'pokemon_id' => 238, 'pokemon_type_id' => 8, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #239
+            ['id' => 477, 'pokemon_id' => 239, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 478, 'pokemon_id' => 239, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #240
+            ['id' => 479, 'pokemon_id' => 240, 'pokemon_type_id' => 3, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 480, 'pokemon_id' => 240, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #241
+            ['id' => 481, 'pokemon_id' => 241, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 482, 'pokemon_id' => 241, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #242
+            ['id' => 483, 'pokemon_id' => 242, 'pokemon_type_id' => 1, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 484, 'pokemon_id' => 242, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #243
+            ['id' => 485, 'pokemon_id' => 243, 'pokemon_type_id' => 5, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 486, 'pokemon_id' => 243, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #244
+            ['id' => 487, 'pokemon_id' => 244, 'pokemon_type_id' => 3, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 488, 'pokemon_id' => 244, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #245
+            ['id' => 489, 'pokemon_id' => 245, 'pokemon_type_id' => 4, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 490, 'pokemon_id' => 245, 'pokemon_type_id' => null, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #246
+            ['id' => 491, 'pokemon_id' => 246, 'pokemon_type_id' => 7, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 492, 'pokemon_id' => 246, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #247
+            ['id' => 493, 'pokemon_id' => 247, 'pokemon_type_id' => 7, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 494, 'pokemon_id' => 247, 'pokemon_type_id' => 6, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #248
+            ['id' => 495, 'pokemon_id' => 248, 'pokemon_type_id' => 7, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 496, 'pokemon_id' => 248, 'pokemon_type_id' => 13, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #249
+            ['id' => 497, 'pokemon_id' => 249, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 498, 'pokemon_id' => 249, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #250
+            ['id' => 499, 'pokemon_id' => 250, 'pokemon_type_id' => 3, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 500, 'pokemon_id' => 250, 'pokemon_type_id' => 16, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+            // Pokémon #251
+            ['id' => 501, 'pokemon_id' => 251, 'pokemon_type_id' => 8, 'type_slot' => 1, 'created_at' => now(), 'updated_at' => now()],
+            ['id' => 502, 'pokemon_id' => 251, 'pokemon_type_id' => 2, 'type_slot' => 2, 'created_at' => now(), 'updated_at' => now()],
+
         ];
         DB::table('pokemon_type_registereds')->insert($registereds);
     }
