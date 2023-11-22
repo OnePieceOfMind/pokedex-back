@@ -9,12 +9,15 @@ class PokemonRegion extends Model
 {
     use HasFactory;
 
+
     protected $fillable = [
         'id',
         'name',
     ];
 
+    protected $table = 'pokemon_regions'; 
+
     public function pokemon(){
-        return $this->hasOne(PokemonRegion::class);
+        return $this->hasOne(Pokemon::class);
     }
 }

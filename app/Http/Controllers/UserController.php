@@ -7,6 +7,7 @@ use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
 class UserController extends Controller
@@ -156,6 +157,47 @@ class UserController extends Controller
                     'status' => 'success', 
                     'message' => 'Datos Actualizados',
                     'data' => $user_update
+                ], 200);
+
+            }
+    
+        }
+    }
+
+    public function password_update(Request $request)
+    {
+  
+        $data = $request->input('password', null);
+        $params = json_decode($data, true);
+
+        if(!empty($params)){
+            $user = $request->user();
+            $params = array_map('trim', $params);
+            $validate = Validator::make($params, [
+                'password_old' => [
+                    'required',
+                    function ($attribute, $value, $fail) use ($user) {
+                        if (!Hash::check($value, $user->password)) {
+                            $fail('La contraseña antigua no es correcta.');
+                        }
+                    },
+                ],
+                'password_new' => 'required',
+                'password_confirm' => 'required|same:password_new',
+
+            ]);
+
+            if($validate->fails()){
+                return response()->json($validate->errors()->first(), 422);
+
+            }else {
+                $password = User::where('id', '=', $user->id)->first();
+                $password->password = password_hash($params['password_new'], PASSWORD_BCRYPT, ['cost' => 4]);
+                $password->save();
+        
+                return response()->json([
+                    'status' => 'success', 
+                    'message' => 'Datos Actualizados',
                 ], 200);
 
             }

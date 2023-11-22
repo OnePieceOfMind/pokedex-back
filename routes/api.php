@@ -40,12 +40,15 @@ Route::prefix('category')->group( function () {
 Route::prefix('region')->group( function () {
 
     Route::get('/', [PokemonRegionController::class, 'index']);
+    Route::post('/filter/{name?}', [PokemonRegionController::class, 'find']);
+
 
 });
 
 Route::prefix('types')->group( function () {
 
     Route::get('/', [PokemonTypeController::class, 'index']);
+    Route::post('/filter/{name?}', [PokemonTypeController::class, 'find']);
 
 });
 
@@ -65,5 +68,6 @@ Route::prefix('auth')->group( function () {
     Route::middleware(['auth:api'])->group(function () {
         Route::get('/user', [UserController::class, 'show']);
         Route::patch('/user/update', [UserController::class, 'update']);
+        Route::patch('/user/password', [UserController::class, 'password_update']);
     });
 });
