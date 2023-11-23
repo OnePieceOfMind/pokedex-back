@@ -185,10 +185,17 @@ class UserController extends Controller
                 'password_new' => 'required',
                 'password_confirm' => 'required|same:password_new',
 
+            ],
+            [
+                'password_new.same' => 'Las Contraseñas No Coinciden',
+                'password_confirm.same' => 'Las Contraseñas No Coiciden'
             ]);
 
             if($validate->fails()){
-                return response()->json($validate->errors()->first(), 422);
+                return response()->json([
+                    'status' => 'error',
+                    'message' => $validate->errors()->first()
+                ], 422);
 
             }else {
                 $password = User::where('id', '=', $user->id)->first();
@@ -197,7 +204,7 @@ class UserController extends Controller
         
                 return response()->json([
                     'status' => 'success', 
-                    'message' => 'Datos Actualizados',
+                    'message' => 'Contraseña Actualizada',
                 ], 200);
 
             }
